@@ -1,4 +1,4 @@
-# Cross-reference for Microsoft SKUs to human-readable license names
+# Cross-reference for Office 365 / Azure SKUs to license names
 
 $MicrosoftSkuCrossReference = @{
 	"AAD_BASIC"                          = "Azure Active Directory Basic"
