@@ -1,4 +1,8 @@
 # Cross-reference for Office 365 / Azure SKUs to license names
+# Use this directly in your scripts:
+#   PS> Invoke-WebRequest https://raw.githubusercontent.com/adamburley/PoshParts/master/Office365-SKUs.ps1 | Select -ExpandProperty Content | Invoke-Expression
+#   PS> $MicrosoftSkuCrossReference["AAD_PREMIUM_P2"]
+#   Azure Active Directory Premium P2
 
 $MicrosoftSkuCrossReference = @{
 	"AAD_BASIC"                          = "Azure Active Directory Basic"
